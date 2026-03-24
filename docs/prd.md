@@ -39,7 +39,7 @@ Como usuário, quero excluir minhas publicações caso deseje removê-las.
 - **US07 - Filtro de busca:** Como usuário, quero pdoder pesquisar jogos baseados nas notas das avaliações.
 - **US08 - Sistema de amizades:** Como usuário, quero poder adicionar amigos e seguir perfis que me interessem.
 - 
-### 📋 Épico 3:Admnistração
+### 📋 Épico 3: Admnistração
 
 - **US09 - Gerenciamento e exclusão de qualquer postagen:** Como administrador, quero moderar reviews e comentários para manter o ambiente saudável.
 Como administrador, quero remover conteúdos inadequados para garantir boas práticas na comunidade.
