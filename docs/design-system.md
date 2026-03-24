@@ -10,12 +10,17 @@ Neste projeto, utilizamos um framework UI e aplicamos customizações pontuais p
 
 As variáveis de cor do framework foram escolhidas para induzir o usuário ao erro ou alertá-lo (tarde demais) sobre as taxas:
 
--Primária: #B026FF - CTAs, estados ativos, barras de progresso brilhantes
-Fundo: #09090E - Fundo do aplicativo, vácuo profundo
-Superfície: #151520 - Cartões, modais (bottom sheets), campos de entrada
-Texto: #F8F8F8 - Texto principal de leitura
-Suave: #828291 - Marcações de tempo, rótulos secundários, bordas
-Destaque: #00FF66 - Marcas de seleção de conclusão, altas pontuações de análise, notificações de sucesso!").
+- **Cor Primária:** `#B026FF` - CTAs, estados ativos, barras de progresso brilhantes
+
+- **Fundo:** `#09090E` - Fundo do aplicativo, vácuo profundo
+
+- **Superfície:** `#151520` - Cartões, modais (bottom sheets), campos de entrada
+
+- **Texto:** `#F8F8F8` - Texto principal de leitura
+
+- **Suave:** `#828291` - Marcações de tempo, rótulos secundários, bordas
+
+- **Destaque:** `#00FF66` - Marcas de seleção de conclusão, altas pontuações de análise, notificações de sucesso!").
 
 ### 3. Tipografia
 
