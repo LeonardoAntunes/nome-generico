@@ -25,7 +25,12 @@ https://
 
 - **Framework CSS:** Materealize WEB
 - **JavaScript:**
+  - **JQuery** - Para realizar animações e manipulação do DOM.
+  - **JSON Server** - Para simular uma API REST.
   - **GameBrain API** - A biblioteca de jogos é importante para facilitar a catalogação dos jogos.
+  - **Firebase** - Um banco de dados para armazenar as reviews feitas.
+  - **Firebase Auth** - Será usada para realizar a verificação de usuarios e salvar os dados dos mesmos.
+  - **Algolia** - Usada para o funcionamento de pesquisas no site.
 
 ## ✅ Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
