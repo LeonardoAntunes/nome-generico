@@ -12,19 +12,21 @@ As variáveis de cor do framework foram escolhidas para induzir o usuário ao er
 
 ### Cores de Fundo e Superfície
 
-- **Deep Obsidian (Fundo Principal):** #0c0f10 (Usado para o background geral de todas as telas).
+Cores de Fundo e Superfície
 
-- **Surface Container (Cartões e Modais):** #1a1d1e (Usado para blocos bento, cards de jogos e superfícies de destaque).
+- **Deep Obsidian (Fundo Principal):** #0c0f10 (Usado para o background geral de todas as telas.)
 
-- **Surface High (Hover e Destaque sutil):** #232e31 (Usado para estados de interação e separação de conteúdo).
+- **Surface Container (Cartões e Modais):** #1a1d1e (Usado para blocos bento, cards de jogos e superfícies de destaque.)
+
+- **Surface High (Hover e Destaque sutil):** #232e31 (Usado para estados de interação e separação de conteúdo.)
 
 ### Cores de Texto e Acento
 
-- **Primary Ice (Acento):** #aecbda (Usado para botões primários, ícones ativos, barras de progresso e links de navegação selecionados).
+- **Primary Ice (Acento):** #aecbda (Usado para botões primários, ícones ativos, barras de progresso e links de navegação selecionados.)
 
-- **High Emphasis (Texto Primário)**: #f8f9fa (Off-white) (Usado para títulos e corpo de texto principal).
+- **High Emphasis (Texto Primário):** #f8f9fa (Off-white) (Usado para títulos e corpo de texto principal.)
 
-- **Medium Emphasis (Texto Secundário)**: #dee7eb com 60% de opacidade. (Usado para legendas, metadados e informações de apoio).
+- **Medium Emphasis (Texto Secundário):** #dee7eb com 60% de opacidade. (Usado para legendas, metadados e informações de apoio.)
 
 ### Cores de Feedback
 
@@ -36,7 +38,8 @@ As variáveis de cor do framework foram escolhidas para induzir o usuário ao er
 
 Importada via Google Fonts para substituir a fonte padrão do navegador e dar um ar mais moderno:
 
-**Fonte Principal:** Inter (Sans-serif Geométrica)
+- **Fonte Principal:** Inter (Sans-serif Geométrica)
+
 - **Display (Títulos Hero):** 48px / Bold / Espaçamento -0.025em
 - **Headline (Títulos de Seção):** 30px / Bold / Espaçamento -0.015em
 - **Body Regular (Corpo de Texto):** 16px / Regular / Altura da linha 1.625
@@ -44,8 +47,18 @@ Importada via Google Fonts para substituir a fonte padrão do navegador e dar um
 
 ### 4. Diretrizes de Uso de Componentes
 
-Regras para a aplicação dos componentes do MaterializeCSS dentro da lógica predatória do Roubank:
+Regras para a aplicação dos componentes do MaterializeCS dentro da lógica da Gamebox:
 
-- **Botões de Ação (`.btn`):** Ações que resultam em cobrança de taxas devem usar o modificador `.btn-large` e a cor primária (vermelho), para chamar atenção e induzir o clique. Ações de cancelamento ou fuga usam botões sem preenchimento (`.btn-flat`) para passarem despercebidos.
-- **Cards (`.card`):** Usados obrigatoriamente para exibir o Saldo em destaque e encapsular as listagens do Extrato. Devem usar a sombra padrão (`z-depth-1`).
-- **Formulários (`.input-field`):** Os inputs devem ser largos e burocráticos.
+- **Botões de Ação (`.btn`):** Ações que resultam nas pulbicações das reviwes produzidas no site. Especifiações:
+Primário: Fundo #aecbda, Texto #0c0f10, Bold, 8px de arredondamento.
+Secundário/Ghost: Borda #aecbda, Texto #aecbda, sem fundo.
+
+- **TopNavBar (`.nav`):** Usado para pesquisar os jogos que você deseja ver sobre. Especificações:
+Altura: 80px (Desktop) / 64px (Mobile)
+Background: #0c0f10 com 80% de opacidade e Blur (Efeito Glass)
+Logo: Branco Puro, negrito, estilo editorial.
+
+- **Formulários (`.input-field`):** Os inputs são mais minimalistas mas fáceis de se encontrar. Especificações:
+Fundo: #151a1c (levemente mais claro que o fundo principal)
+Borda: #40494c
+Placeholder: #dee7eb a 40% de opacidade.
