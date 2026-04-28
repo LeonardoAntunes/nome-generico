@@ -8,12 +8,12 @@ Abaixo está o Diagrama Entidade-Relacionamento (DER) que representa a estrutura
 
 ```mermaid
 erDiagram
+    USER ||--|| PROFILE : has
     USER ||--o{ GAME : registers
     USER ||--o{ REVIEW : writes
-    USER ||--o{ PROFILE : has
+    USER ||--o{ USER_GAME_STATUS : tracks
     GAME ||--o{ REVIEW : "receives"
-    ADMIN ||--o{ REVIEW : moderates
-    ADMIN ||--o{ USER : manages
+    ADMIN ||--|| USER : "is a"
 
     USER {
         int userId PK
