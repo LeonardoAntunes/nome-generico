@@ -23,7 +23,7 @@ https://
 
 ## 💻 Tecnologias e Dependências
 
-- **Framework CSS:** Bootstrap
+- **Framework CSS:** Materealize CSS
 - **JavaScript:**
   - **JQuery** - Para realizar animações e manipulação do DOM.
   - **JSON Server** - Para simular uma API REST.
